@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Über mich: Hamza Abazi stellt sich vor – Ausbildung, Hobbys und Kontakt.">
+  <title>Über mich – Hamza Abazi</title>
+</head>
+<body>
+
+  <header>
+    <h1>Über mich</h1>
+    <p>Hamza Abazi – Schüler und angehender Webentwickler</p>
+
+    <nav aria-label="Hauptnavigation">
+      <ul>
+        <li><a href="#wer-bin-ich">Wer bin ich?</a></li>
+        <li><a href="#ausbildung">Ausbildung</a></li>
+        <li><a href="#hobbys">Hobbys</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <article>
+      <h2>Hallo, ich bin Hamza</h2>
+
+      <figure>
+        <img src="profilbild.jpg" alt="Porträtfoto von Hamza Abazi" width="300" height="300">
+        <figcaption>Das bin ich.</figcaption>
+      </figure>
+
+      <section id="wer-bin-ich">
+        <h3>Wer bin ich?</h3>
+        <p>Ich heiße Hamza Abazi und stelle mich auf dieser Seite kurz vor. Ich interessiere mich für Technik, Medien und alles rund ums Internet.</p>
+      </section>
+
+      <section id="ausbildung">
+        <h3>Ausbildung</h3>
+        <p>Zurzeit lerne ich die Grundlagen der Webentwicklung.</p>
+      </section>
+
+      <section id="hobbys">
+        <h3>Hobbys</h3>
+        <ul>
+          <li>Fußball</li>
+          <li>Mit freunden raus gehen</li>
+          <li>Programmieren in der Freizeit</li>
+        </ul>
+        <details>
+          <summary>Mehr zu meinen Hobbys</summary>
+          <p>Am liebsten spiele ich Fußball. Abends gehe ich gerne mit meinen Freunden raus.</p>
+        </details>
+      </section>
+    </article>
+
+    <aside>
+      <h2>Steckbrief</h2>
+      <dl>
+        <dt>Name</dt>
+        <dd>Hamza Abazi</dd>
+        <dt>Ausbildung</dt>
+        <dd>Informatik</dd>
+        <dt>Interessen</dt>
+        <dd>Fußball, Raus gehen, Programmieren</dd>
+        <dt>Lieblingstool</dt>
+        <dd>Visual Studio Code</dd>
+      </dl>
+    </aside>
+
+  </main>
+
+  <footer id="kontakt">
+    <h2>Kontakt</h2>
+    <address>
+      E-Mail: <a href="mailto:aba230179@spengergasse.at">aba230179@spengergasse.at</a>
+    </address>
+    <p><small>&copy; 2026 Hamza Abazi</small></p>
+  </footer>
+
+</body>
+</html>
